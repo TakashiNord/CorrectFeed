@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="CorrectFeedH33.exe"/>
+    <OBJFILES value="CorrectFeedH33.obj main.obj stat.obj TimeCount.obj about.obj UpToUp.obj 
+      algobase_m.obj FileSelect.obj LengthLimitDialog.obj razbivka.obj 
+      ptp_to_up.obj"/>
+    <RESFILES value="CorrectFeedH33.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm stat.dfm about.dfm FileSelect.dfm LengthLimitDialog.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbsmp.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib bcbsmp.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi adortl.bpi ibsmp.bpi bcbie.bpi 
+      bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="CorrectFeedH33.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -I$(BCB)\include -I$(BCB)\include\vcl -boa"/>
+    <CFLAG1 value="-O2 -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- 
+      -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="CorrectFeedH33.cpp" FORMNAME="" UNITNAME="CorrectFeedH33" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CorrectFeedH33.res" FORMNAME="" UNITNAME="CorrectFeedH33" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="MainDialog" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="stat.cpp" FORMNAME="Form2" UNITNAME="stat" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TimeCount.cpp" FORMNAME="" UNITNAME="TimeCount" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="Form5" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UpToUp.cpp" FORMNAME="" UNITNAME="UpToUp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="algobase_m.cpp" FORMNAME="" UNITNAME="algobase_m" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FileSelect.cpp" FORMNAME="FileSelectDialog" UNITNAME="FileSelect" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LengthLimitDialog.cpp" FORMNAME="LengthLimit" UNITNAME="LengthLimitDialog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="razbivka.cpp" FORMNAME="" UNITNAME="razbivka" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ptp_to_up.cpp" FORMNAME="" UNITNAME="ptp_to_up" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=1
+Release=0
+Build=1
+Debug=0
+PreRelease=1
+Special=1
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=КнААПО, ОГТ-ОПУ
+FileDescription=Корректировка подач для УЧПУ Н33 (Атака)
+FileVersion=2.1.0.1
+InternalName=NEW_GPM
+LegalCopyright=ОПУ, 2004
+LegalTrademarks=Маринина Н.Ю. (2003)
+OriginalFilename=CorrectFeedH33.exe
+ProductName=CorrectFeedH33.exe
+ProductVersion=1.2.7.1
+Comments=no comments
+SpecialBuild=экспериментальная
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dcldb50.bpl=Borland Database Components
+c:\program files\borland\cbuilder6\Bin\dclqrt50.bpl=QuickReport Components
+c:\program files\borland\cbuilder6\Bin\dcltee50.bpl=TeeChart 5.0 Components
+c:\program files\borland\cbuilder6\Bin\dclbde50.bpl=Borland BDE DB Components
+c:\program files\borland\cbuilder6\Bin\dcldss50.bpl=Borland Decision Cube Components
+c:\program files\borland\cbuilder6\Bin\applet50.bpl=Borland Control Panel Applet Package
+c:\program files\borland\cbuilder6\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+c:\program files\borland\cbuilder6\Bin\DCLIB50.bpl=InterBase Data Access Components
+c:\program files\borland\cbuilder6\Bin\dclsmpedit50.bpl=Borland Editor Script Enhancements
+c:\program files\borland\cbuilder6\Bin\dclmid50.bpl=Borland MIDAS Components
+c:\program files\borland\cbuilder6\Bin\dclnet50.bpl=Borland Internet Components
+c:\program files\borland\cbuilder6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+c:\program files\borland\cbuilder6\Bin\DCLNMF50.bpl=NetMasters Fastnet Tools
+c:\program files\borland\cbuilder6\Bin\dclwbm50.bpl=Borland InternetExpress Components
+c:\program files\borland\cbuilder6\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+c:\program files\borland\cbuilder6\Bin\dclite50.bpl=Borland Integrated Translation Environment
+c:\program files\borland\cbuilder6\Bin\mfcwizard.bpl=MFC Wizard
+c:\program files\borland\cbuilder6\Bin\dclado50.bpl=Borland ADO DB Components
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
